@@ -9,8 +9,9 @@ fun IntArray.jump(): Int {
     while (index in indices) {
         visited.add(index)
         index += get(index)
-        if (visited.contains(index))
+        if (visited.contains(index)) {
             break
+        }
     }
     return size - visited.size
 }
