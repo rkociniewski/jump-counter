@@ -1,6 +1,6 @@
 # Jump Counter
 
-[![version](https://img.shields.io/badge/version-1.0.8-yellow.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-1.0.10-yellow.svg)](https://semver.org)
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 [![Build](https://github.com/rkociniewski/jump-counter/actions/workflows/main.yml/badge.svg)](https://github.com/rkociniewski/jump-counter/actions/workflows/main.yml)
 [![codecov](https://codecov.io/gh/rkociniewski/jump-counter/branch/main/graph/badge.svg)](https://codecov.io/gh/rkociniewski/jump-counter)
@@ -14,7 +14,9 @@ A simple Kotlin utility that calculates how many indices in an integer array are
 
 ## 🧠 Idea
 
-Given an array of integers, we **start at index `0`** and repeatedly jump forward or backward by the value at the current index. The jumping process stops if:
+Given an array of integers, we **start at index `0`** and repeatedly jump forward or backward by the value at the
+current index. The jumping process stops if:
+
 - we reach an index **out of bounds**, or
 - we land on an index that has **already been visited**.
 
